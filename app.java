@@ -1,6 +1,8 @@
+import java.util.Collections;
 import java.util.List;
 import solution.task1;
 import solution.task2;
+import solution.task3;
 
 public class app {
 
@@ -19,6 +21,13 @@ public class app {
 
         //Task3
 
-        
+        List<Integer> arr = task3.randomFill();
+
+        System.out.println("Task3");
+        System.out.println(arr);
+        System.out.println("Максимальный элемент равен: " + Collections.max(arr));
+        System.out.println("Минимальный элемент равен: " + Collections.min(arr));
+
+        task3.getAverageAndMedian(arr);
     }
 }

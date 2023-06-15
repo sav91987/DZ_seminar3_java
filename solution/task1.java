@@ -14,7 +14,7 @@ public class task1 {
         for (int i = 0; i < 10; i++) {
             mass.add((int) (Math.random() * 10));
         }
-
+        System.out.println("Task1");
         System.out.println(mass);
         return mass;
     }

@@ -13,6 +13,7 @@ public class task2 {
         for (int i = 0; i < 10; i++) {
             mass.add((int) (Math.random() * 10));
         }
+        System.out.println("Task2");
         System.out.println(mass);
         return mass;
     }
