@@ -1,6 +1,5 @@
 // 1. Реализовать алгоритм сортировки слиянием(метод взять из Интернета)
 
-
 package solution;
 
 import java.util.ArrayList;
@@ -53,8 +52,7 @@ public class task1 {
 
             if ((sorted1.get(index1)) < (sorted2.get(index2))) {
                 result.set((destIndex++), sorted1.get(index1++));
-            } 
-            else {
+            } else {
                 result.set((destIndex++), sorted2.get(index2++));
             }
         }
@@ -64,10 +62,9 @@ public class task1 {
             result.set((destIndex++), sorted1.get(index1++));
         }
         while (index2 < endIndex) {
-            
+
             result.set((destIndex++), sorted2.get(index2++));
         }
         return result;
     }
 }
-
